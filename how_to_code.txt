@@ -1,0 +1,30 @@
+Hur ska man koda?
+
+Format:     
+
+Rader: Ska helst vara under 80 tecken långa men ha 120 som en gräns.
+
+Funktioner: Ska helst vara under 10 rader men ha 20 som hård gräns.
+
+Gruppering:
+Sepparera inte raderna inom funktioner med enterslag. Om du känner ett behov av att sepparera koden så är det nog ett tecken på att du borde dela upp koden i två funktioner i stället.
+Separera funktioner med ett enterslag och klasser med två.
+
+Kommentarer:
+Använd er gärna av dockstrings ( """ this is a dockstring """ ) på raden efter deklareringen för att kommentera funktioner och klasser som inte är elementära. t.ex. kommentera inte funktioner som __str__ och __init__ samt getters och setters (t.ex. getValue, setValue).
+Om man använder sig av små välskrivna funktioner så kan man nästan helt eliminera behovet av kommentarer. I verkligheten så har man inte alltid tid utan man får förlita sig på kommentarer för att andra ska förstå. Ni kan också anta att personen som kommer att läsa kommentarerna kommer att vara programmerare så det är helt ok att vara väldigt teknisk.
+
+Namngivning:
+Klasser ska alltid ha stor bokstav i början av ordet. Detta gör det enkelt att skilja funktionsanrop och objektkonstruktorer vid en anblick.
+Klasser och variabler ska alltid vara substantiv. Bok, Bil, Bibliotek osv är bra namn.
+Funktioner och klassmetoder ska vara verb. BeräknaMedelvärde, hämtaUtlåndeBöcker, skapaNyAvändere är bra exempel.
+Var inte rädd att göra koden längre i dina försök att göra din kod bättre. I slutändan går det snabbare att läsa och hitta i koden ändå.
+
+
+
+
+Erfarenhet säger att en programmerare ägnar så lite som 10% av sin tid åt att skriva och 90% åt att läsa sin egen kod. Detta är varför många har mycket att tjäna på att skriva snyggare kod.
+Desto närmare man tar programmering till ett naturligt språk desto lättare blir det att se fel i koden.
+
+
+Skaffa en bra editor och vänj dig vid att komplilera och exekvera koden via terminal då det gör dig mer plattforsoberoende. Min personliga rekomendation är sublime då det är en riktigt bra editor som finns till både mac, linux och windows.
