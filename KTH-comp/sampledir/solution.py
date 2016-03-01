@@ -1,3 +1,13 @@
+
+
+def printList(data):
+    print(" ".join(list(map(str, data))))
+
+
+def printCase(case):
+    print("Case #" + str(case + 1) + ":")
+
+
 amount = int(input())
 
 numbers = list(map(int, input().split()))
